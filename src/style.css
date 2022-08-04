@@ -1,0 +1,133 @@
+body{
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    background-color: #011627;
+    color: #FDFFFC;
+}
+
+.main-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 120px;
+    width: 100%;
+    color: #E71D36;
+    text-align: center;
+}
+.body{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.body-left{
+    margin-left: 40px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.body-right{
+    margin-right: 50px;
+    margin-left: 40px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.content-heading{
+    font-weight:bold ;
+    font-size: 25px;
+    color: #ff9f1c
+
+}
+.date{
+    font-size: medium;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(64, 81, 180);
+}
+.image-sub, .image-sub>a{
+    font-weight: 600;
+    color: #2EC4B6;
+    
+}
+.img-cont{
+    border-radius:10px ;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+}
+.hobby-icon{
+    width: 100px;
+}
+.about-me-heading{
+    font-weight: bold;
+    margin-top: 10px;
+    color: #ff9f1c
+
+}
+
+.about-me-details{
+    line-height: 40px;
+    margin-top: 10px;
+}
+
+div.image-container{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    margin-left: 0px;
+    justify-content: space-between;
+}
+
+.image-container>div>p{
+    margin-top: 0px;
+}
+.tag{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    font-size: 16px;
+    font-family: monospace  ;
+    border-color:white ;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    background-color: #E71D36;
+    display: inline-flex;
+    align-items: center;
+    color: #011627
+}
+
+.tag>i {
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+
+.tag.first{
+    background-color: #E71D36;
+}
+
+.tag.second{
+     
+    
+    background-color: #ff9f1c;
+}
+.project-image{
+    width: 230px;
+}
+.hobby-sub{
+    text-align: center;
+}
+.footer{
+          display: flex;
+          justify-content: space-between;
+          margin-top: 130px;
+}
