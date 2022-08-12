@@ -55,13 +55,11 @@ a{
 }
 .image-sub, .image-sub>a{
     font-weight: 600;
-    color: #2EC4B6;
+    color: #2EC4B6; 
     
 }
 .img-cont{
-    border-radius:10px ;
-    border-width: 5px;
-    border-color: rgb(0, 0, 0);
+    margin-right: 15px;
 }
 .hobby-icon{
     width: 100px;
@@ -129,8 +127,7 @@ div.image-container{
     background-color: #f4faf2;
 }
 .project-image{
-
-    width: 230px;
+    width: 100%;
 }
 .hobby-sub{
     text-align: center;
